@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    printf("人生第一个代码");
+    return 0;
+}    
