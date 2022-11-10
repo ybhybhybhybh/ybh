@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()  int——整型数据类型
+{
+    printf("人生第一个代码"); printf——代表打印函数
+    return 0;
+}    
+第二个代码
+#include<stdio.h>
+int main()
+{
+char ch='A'——char字符型数据类型
+printf("%c",ch）; %c表示打印字符格式
+return 0;
+}
+第三个代码
+#include<stdio.h>
+int main()
+{
+int age=18;
+printf("%d18是我今年的年龄",age);%d——表示打印整型十进制格式
+return 0; 
+}
+数据类型 ——long长整型 short短整型 char字符型 int整型 float单精度浮点型——小数点型
+    
