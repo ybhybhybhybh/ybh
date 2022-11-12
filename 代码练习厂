@@ -28,7 +28,7 @@ return 0;
  int a=0;
  int b=0;
  int c=0;
- scanf_s("%d%d",&a,&b);&——代表地址存储 scanf——代表输入函数
+ scanf_s("%d%d",&a,&b);&——代表地址存储也就是取地址符； scanf——代表输入函数
  c=a+b;
  printf("c=%d",c);
  return 0;总结一下定义的变量要放在代码块的最前面
