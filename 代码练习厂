@@ -33,3 +33,22 @@ return 0;
  printf("c=%d",c);
  return 0;总结一下定义的变量要放在代码块的最前面
  }
+ 第五个代码
+ #include<stdio.h>
+ #define YBH 20 ———#define代表此时YBH就是等于20已经被定义
+ int main()
+ {
+     int b=30;
+     printf("%d",YBH+b);
+     return 0;
+ }
+ 第六个代码
+ #include<stdio.h>
+ int main()
+ {
+     char A[]={'a','b','c','\0'};
+     char B[]="abc";
+     printf("%s\n%s",A,B);——%s代表打印字符串格式
+     return 0；
+     
+ }
