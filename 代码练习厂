@@ -48,7 +48,7 @@ return 0;
  {
      char A[]={'a','b','c','\0'};
      char B[]="abc";
-     printf("%s\n%s",A,B);——%s代表打印字符串格式
+     printf("%s\n%s",A,B);——%s代表打印字符串格式 ——%c代表打印字符格式
      return 0；
      
  }
