@@ -52,3 +52,16 @@ return 0;
      return 0；
      
  }
+第七个代码
+ #include<stdio.h>
+ int main()
+ {
+     int a=0;
+     printf("你要好好学习吗？(1/0)>:");
+     scanf("%d",&a);
+     if(a==1) ————选择语句如果
+     printf("给你一个好offer\n"):
+     else ————选择语句否则
+     printf("回家种田\n");
+     return 0;
+ }
